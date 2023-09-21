@@ -1,0 +1,10 @@
+#!/bin/fish -f
+## revr 1.0 ##  Copyright(C)1994 by Itagaki Fumihiko
+
+rev $*:q | tr -b \
+\'\(\)\<\>\[\]\`\{\}\
+LM_^efghijklmnopqrstuvwxyzƒ„…†©¨\
+¸¹º»¼½áâ„¡„¢„¤„£„¥„§„¬„­„¯„®„°„²„µ„·„º„¼ \
+\`\)\(\>\<\]\[\'\}\{\
+ML^_fehgjilknmporqtsvuxwzy„ƒ†…¨©\
+¹¸»º½¼âá„¢„¡„£„¤„§„¥„­„¬„®„¯„²„°„·„µ„¼„º
